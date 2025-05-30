@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Easy Apply Configuration</title>
+  <link rel="stylesheet" href="../css/options.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Easy Apply Configuration</h1>
+    
+    <form id="configForm">
+      <div class="form-group">
+        <label for="phoneNumber">Phone Number:</label>
+        <input type="text" id="phoneNumber" name="phoneNumber" required>
+      </div>
+      
+      <div class="form-group">
+        <label for="resumePath">Resume Path (optional):</label>
+        <input type="text" id="resumePath" name="resumePath">
+      </div>
+      
+      <div class="form-group">
+        <label for="applyDelay">Delay between applications (ms):</label>
+        <input type="number" id="applyDelay" name="applyDelay" min="1000" required>
+      </div>
+      
+      <div class="form-group">
+        <label for="maxApplications">Maximum applications per run:</label>
+        <input type="number" id="maxApplications" name="maxApplications" min="1" required>
+      </div>
+      
+      <h3>Default Answers</h3>
+      <div id="answersContainer"></div>
+      <button type="button" id="addAnswer" class="btn-secondary">Add Answer</button>
+      
+      <div class="form-actions">
+        <button type="submit" class="btn-primary">Save Configuration</button>
+      </div>
+    </form>
+    
+    <div id="status"></div>
+  </div>
+  <script src="../js/options.js"></script>
+</body>
+</html>
