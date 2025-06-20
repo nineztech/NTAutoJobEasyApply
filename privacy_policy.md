@@ -25,4 +25,4 @@ You can view, edit, or delete your stored data at any time through the extension
 This privacy policy may be updated occasionally. Any changes will be reflected in this document, which is available in the repository of the extension.
 
 ## Contact
-If you have any questions or concerns about this privacy policy, please contact us at [iliyabrook1987@gmail.com](mailto:iliyabrook1987@gmail.com).
+If you have any questions or concerns about this privacy policy, please contact us at [hr@nineztech.com](mailto:hr@nineztech.com).
