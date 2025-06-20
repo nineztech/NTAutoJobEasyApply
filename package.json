@@ -1,8 +1,8 @@
 {
-  "name": "easy-apply-linkedin",
-  "repository": "https://github.com/IliyaBrook/autoApplylinkedin",
-  "author": "Iliya Brook <iliyabrook1987@gmail.com>",
-  "version": "2.2",
+  "name": "ZenX AI by NinezTech",
+  "repository": " ",
+  "author": "Ninez Tech",
+  "version": "1.0",
   "description": "Applying for Jobs Made Effortless!",
   "scripts": {
     "pack": "node pack-extension.js"
